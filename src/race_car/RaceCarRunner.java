@@ -21,9 +21,11 @@ public class RaceCarRunner {
 		rob.pit();
 	}
 		// 5. Help the car move into first place.
-	if (rob.overtake()) {
-		rob.
-	}
+int jim = rob.getPositionInRace();
+		for (int i = 0; i<jim; i++) {
+			rob.overtake();
+		}
+	
 			
 		
 	}
